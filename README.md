@@ -4,14 +4,17 @@ V1 version of this adaptor can be found here: https://github.com/tikyau/OPCDA_to
 
 **Updates:**
 
-1. Local Configuration file for Initialization 
+1. Local Configuration file for Initialization
+
 Client App initialization will be done according to the local configuration file which includes device connection string, OPC server IP/ address, tags, message sending interval and threshold data for alarm triggers.  
 The file can be modified manually and they will be parsed to the client app as parameters. The client app will automatically connect with the OPC DA server to extract the event messages and send data to IoT Hub. 
 
 2. Device Twin & Azure Function for managements through the cloud 
+
 A replica of the configuration file will be stored in Blob. An azure function will be listening to file changes in Blob and generate a blob SAS token which will be passed to the Device Twin attribute. Client app will receive the device twin notification, download and consume the latest config file without disconnection. 
 
 3. Reliability Measures 
+
 OPC DA server will temporarily stop during a system upgrade or a service downtime. The client app will have a timeout interval for server reconnection during this period to avoid any human intervention. The timeout interval is also configurable in the config file.  
 
 
