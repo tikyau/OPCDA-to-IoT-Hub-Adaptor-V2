@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+  
+  <OPCDAServerUrl>
+    
+  </OPCDAServerUrl>
+  
+  <IOTHubConnectionString>
+    
+  </IOTHubConnectionString>
+
+  <!-- Interval value is in miliseconds. -->
+  <StreamInterval>20000</StreamInterval>
+  
+  <!-- OPCDA server connection timeout interval in minutes. -->
+  <ConnectionTimeout>25</ConnectionTimeout>
+
+
+	<Tags>
+		Trend Point.Metered Data.SITE0060B2_EcoMeter#014.Line 2 - Active Power,NA,1,kW,NA,NA
+	</Tags>
+
+</appSettings>
