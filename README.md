@@ -17,6 +17,7 @@ A replica of the configuration file will be stored in Blob. An azure function wi
 
 OPC DA server will temporarily stop during a system upgrade or a service downtime. The client app will have a timeout interval for server reconnection during this period to avoid any human intervention. The timeout interval is also configurable in the config file.  
 
+**Steps:**
 
 This repo contain the full source code in C# that allows you to 
 1. Remotely connect to your OPCDA Server.
