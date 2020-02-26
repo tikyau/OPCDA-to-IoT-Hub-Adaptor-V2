@@ -1,4 +1,4 @@
-# Streaming data from OPCDA Server to Azure IoT Hub
+# Streaming data from OPCDA Server to Azure IoT Hub V2
 
 V1 version of this adaptor can be found here: https://github.com/tikyau/OPCDA_to_IoTHub
 
