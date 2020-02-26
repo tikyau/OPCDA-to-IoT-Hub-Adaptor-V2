@@ -54,6 +54,7 @@ Before you start this tutorial, you should have obtained all your tag names from
    ![image](https://user-images.githubusercontent.com/17831550/75311501-ec871780-5891-11ea-979c-5844e2d02c26.png)
 
 7. The repo contains all the DLLs that are required to establish the connection and extracting the tag data from your OPCDA Server:
+
    ![Capture1](https://user-images.githubusercontent.com/17831550/65575841-5168d980-dfa3-11e9-99a3-83da87348f23.PNG)
 
 8. Successful console output:
