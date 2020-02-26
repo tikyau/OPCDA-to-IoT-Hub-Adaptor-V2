@@ -38,19 +38,24 @@ Before you start this tutorial, you should have obtained all your tag names from
 
 1. Build and run the full solution (OPDDA45.sln) with Visual Studio 2017 is recommended. 
 
-2. Fill in your OPCDA Server info (Host Name and Server Name), IoT Hub Connection String and define your stream interval in the app.config file.
-   ![Capture2](https://user-images.githubusercontent.com/17831550/65575809-3dbd7300-dfa3-11e9-8145-3561c2f2c7f6.PNG)
+2. Fill in your OPCDA Server info (Host Name and Server Name), IoT Hub Connection String, define your stream interval and timeout interval in the config.xml file.
+   ![image](https://user-images.githubusercontent.com/17831550/75311192-fb20ff00-5890-11ea-9bce-6be87da846d1.png)
 
-3. Update the tag names in the Tags.txt file:
-   ![tag](https://user-images.githubusercontent.com/17831550/65658916-37d79880-e05c-11e9-9cfb-53eb9bc68716.png)
+3. Update the tag names in the config.xml file:
+   ![image](https://user-images.githubusercontent.com/17831550/75311288-3f140400-5891-11ea-8b4b-221f0cc6e3b6.png)
    
 4. Update the schema of your IoT Hub Message as desired in SimulatedDevice.cs as shown below:
-   ![Capture4](https://user-images.githubusercontent.com/17831550/65575755-1e264a80-dfa3-11e9-86fa-c647cd6f90cf.PNG)
+   ![image](https://user-images.githubusercontent.com/17831550/75311367-7d112800-5891-11ea-9461-6027569acdc0.png)
+   
+5. The device twin code for config file update through Azure Cloud
+   ![image](https://user-images.githubusercontent.com/17831550/75311418-a336c800-5891-11ea-81be-224dd17c7d44.png)
 
-5. The repo contains all the DLLs that are required to establish the connection and extracting the tag data from your OPCDA Server:
+6. A mock up OPCDA server is included for you to test without a real server
+   ![image](https://user-images.githubusercontent.com/17831550/75311501-ec871780-5891-11ea-979c-5844e2d02c26.png)
 
+7. The repo contains all the DLLs that are required to establish the connection and extracting the tag data from your OPCDA Server:
    ![Capture1](https://user-images.githubusercontent.com/17831550/65575841-5168d980-dfa3-11e9-99a3-83da87348f23.PNG)
 
-6. Successful console output:
+8. Successful console output:
    ![Screenshot (10)](https://user-images.githubusercontent.com/17831550/65575696-077ff380-dfa3-11e9-875c-072f0ae4a4bc.png)
 
