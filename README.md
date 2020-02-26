@@ -34,9 +34,12 @@ This repo contain the full source code in C# that allows you to
 Before you start this tutorial, you should have obtained all your tag names from an OPC Client. You can easily export all the tag names of your OPC server with an OPC Explorer as shown below:
 ![66d71a321004 1](https://user-images.githubusercontent.com/17831550/65606541-ac1f2700-dfdd-11e9-981f-e2a27a689ac8.gif)
 
+1. Setup IoT Hub and add a new device
+2. For config management through the cloud: Setup Azure Function and update the Device Twin Attribute
+
 # Installation and Deployment
 
-1. Build and run the full solution (OPDDA45.sln) with Visual Studio 2017 is recommended. 
+1. Build and run the full solution (OPDDA45.sln) with Visual Studio 2017 is recommended.
 
 2. Fill in your OPCDA Server info (Host Name and Server Name), IoT Hub Connection String, define your stream interval and timeout   interval in the config.xml file.
 
