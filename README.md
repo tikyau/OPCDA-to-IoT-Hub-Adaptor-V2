@@ -4,7 +4,7 @@ V1 version of this adaptor can be found here: https://github.com/tikyau/OPCDA_to
 
 **Updates:**
 
-1. Local Configuration file for Initialization
+**1. Local Configuration file for Initialization
 
 Client App initialization will be done according to the local configuration file (Config.xml) which includes device connection string, OPC server IP/ address, tags, message sending interval and threshold data for alarm triggers.  
 The file can be modified manually and they will be parsed to the client app as parameters. The client app will automatically connect with the OPC DA server to extract the event messages and send data to IoT Hub. 
