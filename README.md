@@ -49,6 +49,9 @@ Before you start this tutorial, you should have obtained all your tag names from
    
 5. The device twin code for config file update through Azure Cloud
    ![image](https://user-images.githubusercontent.com/17831550/75311418-a336c800-5891-11ea-81be-224dd17c7d44.png)
+   
+   Overall Architecture for the device twin and Az Function operation:
+   ![Device Twin](https://user-images.githubusercontent.com/17831550/75311009-61f1e880-5890-11ea-9198-b62fe4bc738d.png)
 
 6. A mock up OPCDA server is included for you to test without a real server
    ![image](https://user-images.githubusercontent.com/17831550/75311501-ec871780-5891-11ea-979c-5844e2d02c26.png)
