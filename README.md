@@ -13,7 +13,7 @@ The file can be modified manually and they will be parsed to the client app as p
 
 A replica of the configuration file will be stored in Blob. An azure function will be listening to file changes in Blob and generate a blob SAS token which will be passed to the Device Twin attribute. Client app will receive the device twin notification, download and consume the latest config file without disconnection. 
 
-  Link to Function App setup: https://github.com/tikyau/OPCDA-Client-Function-App-Setup
+  Link to Function App setup: https://github.com/tikyau/OPCDA-Client-Function-App-Setup_V2
 
 **3. Reliability Measures** 
 
